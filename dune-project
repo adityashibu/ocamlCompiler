@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github as2397/ocamlCompiler))
 
-(authors "Author Name")
+(authors "As2397")
 
-(maintainers "Maintainer Name")
+(maintainers "As2397")
 
 (license LICENSE)
 
@@ -17,10 +17,10 @@
 
 (package
  (name compiler)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "A compiler built using OCaml")
+ (description "An even longer description of a compiler build using OCaml")
  (depends ocaml dune)
  (tags
-  (topics "to describe" your project)))
+  (compiler)))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
